@@ -1,0 +1,217 @@
+/**************************************JAPAN TRIP 2011***********************************/
+/*##########################
+        CSS RESET
+##########################*/
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    position: absolute;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*##########################
+        CSS RESET (end)
+##########################*/
+/*##########################
+        BORDER BOX
+##########################*/
+*, *:before, *:after {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+ }
+k/*#########################
+        FONT FAMILIES
+##########################*/
+html {
+    font-size: 14px;
+}
+@font-face {
+    font-family: JosefinSans-Light; src: url(/fonts/JosefinSans-Light.ttf);
+}
+/*#############################################################################
+###############################################################################
+                Mobile/Small Screen Style
+###############################################################################
+#############################################################################*/
+@media screen and (min-width: 300px) {
+    a {
+        text-decoration: none;
+        font-family: JosefinSans-Light;
+        color: #694000;
+    }
+    #links li {
+        list-style: none;
+        float: left;
+        width: 25%;
+        padding: 0 1rem;
+        padding-top: .5rem;
+    }
+    header {
+        text-align: center;
+    }
+    hgroup {
+        clear: right;
+        text-align: center;
+    }
+    hgroup h1 {
+        font-family: JosefinSans-Light;
+        font-size: 3rem;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        background: rgba(250, 167, 214, 0.75);
+        color: #fff;
+    }
+    hgroup h1:first-child {
+        float: left;
+        width: 50%;
+        padding-left: 1rem;
+    }
+    hgroup h1:nth-child(2) {
+        float: right;
+        width: 50%;
+        padding-right: 1rem;
+    }
+    header img {
+        clear: both;
+        width: 60%;
+        border-radius: 50%;
+        border: 3px #fff solid;
+        margin-top: -3rem;
+    }
+    header p {
+        padding-top: 2rem;
+    }
+/*=============================TRAVELERS SECTION==============================*/
+    #travelers {
+        text-align: center;
+        background: rgba(0, 0, 0, .2);
+        margin-top: 9rem;
+    }
+    #travelers h1 {
+        font-size: 3rem;
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+        font-family: JosefinSans-Light;
+    }
+    #travelers img {
+        width: 60%;
+        border-radius: 50%;  
+    }
+    #travelers img:first-child {
+        border: solid 7px rgba(147, 255, 133, .50);
+    }
+    #travelers img:nth-child(3) {
+        border: solid 7px rgba(255, 255, 133, .50);
+    }
+    p {
+        font-family: JosefinSans-Light;
+        padding-top: .5rem;
+        padding-bottom: 3rem;
+    }
+}
+
+/*#############################################################################
+###############################################################################
+                DESKTOP/ENHANCED STYLES
+###############################################################################
+#############################################################################*/
+@media screen and (min-width: 600px) {
+}
