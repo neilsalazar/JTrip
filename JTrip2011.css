@@ -1,4 +1,4 @@
-/**************************************JAPAN TRIP 2011***********************************/
+/**************************************JAPAN TRIP 2010***********************************/
 /*##########################
         CSS RESET
 ##########################*/
@@ -117,7 +117,7 @@ input, select {
   -webkit-box-sizing: border-box; 
   box-sizing: border-box;
  }
-k/*#########################
+/*#########################
         FONT FAMILIES
 ##########################*/
 html {
@@ -137,6 +137,10 @@ html {
         font-family: JosefinSans-Light;
         color: #694000;
     }
+    ul {
+        position: absolute;
+        width: 100%;
+    }
     #links li {
         list-style: none;
         float: left;
@@ -145,10 +149,13 @@ html {
         padding-top: .5rem;
     }
     header {
+        width: 100%;
         text-align: center;
     }
     hgroup {
-        clear: right;
+        border: solid green 1px;
+        width: 100%;
+        clear: left;
         text-align: center;
     }
     hgroup h1 {
@@ -169,18 +176,19 @@ html {
         width: 50%;
         padding-right: 1rem;
     }
-    header img {
-        clear: both;
+    #mainimage {
         width: 60%;
         border-radius: 50%;
         border: 3px #fff solid;
         margin-top: -3rem;
+        max-width: 300px;
     }
     header p {
-        padding-top: 2rem;
+        padding-top: 1rem;
     }
 /*=============================TRAVELERS SECTION==============================*/
     #travelers {
+        width: 100%;
         text-align: center;
         background: rgba(0, 0, 0, .2);
         margin-top: 9rem;
@@ -191,16 +199,18 @@ html {
         padding-bottom: 3rem;
         font-family: JosefinSans-Light;
     }
-    #travelers img {
+    img {
         width: 60%;
-        border-radius: 50%;  
+        border-radius: 50%;
+        border: solid 3px green;
+        max-width: 200px;
     }
-    #travelers img:first-child {
+    /*#travelers img:first-child {
         border: solid 7px rgba(147, 255, 133, .50);
     }
     #travelers img:nth-child(3) {
         border: solid 7px rgba(255, 255, 133, .50);
-    }
+    }*/
     p {
         font-family: JosefinSans-Light;
         padding-top: .5rem;
@@ -214,4 +224,20 @@ html {
 ###############################################################################
 #############################################################################*/
 @media screen and (min-width: 600px) {
+}
+
+
+/*#############################################################################
+###############################################################################
+                IMAGE BORDER COLOR STYLES
+###############################################################################
+#############################################################################*/
+.red {
+    border-color: red;
+}
+.blue {
+    border-color: blue;
+}
+.purple {
+    border-color: purple;
 }
