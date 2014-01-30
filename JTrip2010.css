@@ -133,7 +133,7 @@ html {
 #############################################################################*/
 @media screen and (min-width: 300px) {
     header {
-        text-align: center;
+        width: 100%;
     }
     a {
         text-decoration: none;
@@ -146,14 +146,9 @@ html {
         width: 25%;
         padding: 0 1rem;
         padding-top: .5rem;
+        background: #fff;
     }
-    hgroup {
-        display: block;
-        clear: left;
-        text-align: center;
-    }
-    hgroup h1 {
-        font-family: JosefinSans-Light;
+    hgroup h1{
         font-size: 3rem;
         padding-top: 1rem;
         padding-bottom: 3rem;
@@ -171,101 +166,28 @@ html {
         padding-right: 1rem;
     }
     #mainimage {
-        float: none;
-        width: 60%;
-        border-radius: 50%;
-        border: 3px #fff solid;
-        margin-top: -3rem;
+        clear: both;
+        width: 30rem;
         max-width: 300px;
     }
-    header p {
-        padding-top: 1rem;
+    div {
+        position: absolute;
+        width: 100%;
+        border: 1px green solid;
+        left: 0;
+        right: 0;
     }
-/*=============================TRAVELERS SECTION==============================*/
-    #travelers {
-        position: relative;
-        text-align: center;
-        background: rgba(0, 0, 0, .2);
-        margin-top: 9rem;
-    }
-    #travelers h1 {
-        position: relative;
-        font-size: 5rem;
-        padding-top: 5rem;
-        padding-bottom: 3rem;
-        font-family: JosefinSans-Light;
-        color: #fff;
-        z-index: 100;
+    section {
+        border: solid red 1px;
+        width: 100%;
     }
     img {
-        width: 60%;
-        border-radius: 50%;
-        border: solid 7px rgba(133, 255, 204, .50);;
-        max-width: 16rem;
-    }
-    .pbox {
-        display: inline-block;
-        width: 23rem;
-        padding-top: 1.5rem;
-        margin: 1rem;
-    }
-    #picwrap {
-        text-align: center;
-        background: rgba(154, 156, 154, .9);
-    }
-    /*#travelers img:first-child {
-        border: solid 7px rgba(147, 255, 133, .50);
-    }
-    #travelers img:nth-child(3) {
-        border: solid 7px rgba(255, 255, 133, .50);
-    }*/
-    p {
-        clear: left;
-        font-family: JosefinSans-Light;
-        margin: 1rem;
-    }
-}
-
-/*#############################################################################
-###############################################################################
-                DESKTOP/ENHANCED STYLES
-###############################################################################
-#############################################################################*/
-@media screen and (min-width: 600px) {
-    #mainwrapper {
-        position: relative;
-        background: url(/images/trainbackground.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        width: 100%;
-        z-index: 0;
+        width: 200px;
     }
 }
 
 
-/*#############################################################################
-###############################################################################
-                IMAGE BORDER COLOR STYLES
-###############################################################################
-#############################################################################*/
-.red {
-    border-color: rgba(255, 13, 13, .50);
-}
-.blue {
-    border-color: rgba(133, 229, 255, .50);
-}
-.purple {
-    border-color: rgba(200, 133, 255 .50);
-}
-.yellow {
-    border-color: rgba(255, 255, 18, .50);
-}
-.green {
-    border-color: rgba(153, 255, 20, .50);
-}
-.orange {
-    border-color: rgba(255, 179, 3, .50);
-}
+
 
 
 
