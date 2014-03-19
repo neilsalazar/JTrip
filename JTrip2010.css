@@ -186,7 +186,7 @@ html {
     #travelers {
         position: relative;
         text-align: center;
-        background: rgba(255, 249, 158, .75);
+        background: rgba(0, 0, 0, .75);
         margin-top: 9rem;
     }
     #travelers h1 {
@@ -201,8 +201,9 @@ html {
     img {
         width: 60%;
         border-radius: 50%;
-        border: solid 7px rgba(133, 255, 204, .50);
+        border: solid 7px rgba(255, 255, 255, 1);
         max-width: 16rem;
+        transition: 3s ease-in-out;
     }
     .pbox {
         display: inline-block;
@@ -223,7 +224,7 @@ html {
         clear: left;
         font-family: JosefinSans-Light;
         margin: 1rem;
-        color: #000;
+        color: #fff;
     }
 }
 
